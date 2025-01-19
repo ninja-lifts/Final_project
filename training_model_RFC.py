@@ -10,7 +10,7 @@ import numpy as np
 
 # Load the dataset from the 'data.pickle' file using pickle
 # The file contains a dictionary with 'data' (features) and 'labels' (classes)
-data_dict = pickle.load(open('./data.pickle', 'rb'))
+data_dict = pickle.load(open('./Downloads/data.pickle', 'rb'))
 
 # Convert the 'data' and 'labels' from the loaded dictionary to numpy arrays for further processing
 data = np.asarray(data_dict['data'])  # Features array
