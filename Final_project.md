@@ -4,7 +4,7 @@
  ## Key Steps:
    - Data Collection: Collected 26 classes of hand gesture data (A-Z) using OpenCV from live camera feed.
    - Feature Extraction: Used Mediapipe’s hand landmarks to extract key hand features and normalized coordinates for training.
-   - Model Development: Trained Random Forest Classifier , achieving the highest accuracy of [97]% with Random Forest.
+   - Model Development: Trained Random Forest Classifier , logistic regression and K-Nearest Neighbour classifier, achieving the highest accuracy of [97]% with Random Forest.
  ## Key Libraries:
    - Mediapipe: Hand tracking and feature extraction.
    - OpenCV: Data collection from webcam and real-time visualization.
