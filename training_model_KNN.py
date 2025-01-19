@@ -24,6 +24,6 @@ score = accuracy_score(y_predict, y_test)
 print('{}% of samples were classified correctly!'.format(score * 100))
 
 # Save the trained KNN model to a file named 'model_knn.p' using pickle
-f = open('model_knn.p', 'wb')  # Open file in write-binary mode
+f = open('model_3.p', 'wb')  # Open file in write-binary mode
 pickle.dump({'model': model_3}, f)  # Serialize and save the model
 f.close()  
