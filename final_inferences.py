@@ -82,6 +82,5 @@ while True:
     cv2.imshow('frame', frame)  # Show the frame with drawing on the screen
     cv2.waitKey(1)  # Wait for 1 ms for a key press to continue the loop
 
-# Release the webcam and close all OpenCV windows when the loop ends
-cap.release()  # Release the webcam
-cv2.destroyAllWindows()  # Close all OpenCV windows
+cap.release() 
+cv2.destroyAllWindows() 
